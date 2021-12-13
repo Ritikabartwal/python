@@ -1,0 +1,70 @@
+a=input("player name:")
+r=input("Want play game or not?")
+if r=="yes":
+    print("GAME START: ")
+    print("I:What is national game of India?")
+    a=print("i:Cricket")
+    b=print("ii:Hockey")
+    c=print("iii:Badminton")
+    d=print("iv:Table Tennis")
+    choice=input()
+    if choice=="ii":
+        print("Correct answer")
+        s=0+10
+        print("Your score is :",s)
+    else:
+        s=0
+        print("Not correct",s)
+    print("II:Who is Sania mirza?")
+    e=print("i:Tennis player")
+    f=print("ii:Cricket player")
+    g=print("iii:Badminton player")
+    h=print("iv:Hockey player")
+    choice=input()
+    if choice=="i":
+        print("Correct answer")
+        s=10+s
+        print("your score is :",s)
+    else:
+        print("Not correct",s)
+    print("III:Who is prime minister of India?")
+    i=print("i:Arvind kejriwal")
+    j=print("ii:Manmohan singh")
+    k=print("iii:Jawaharlal nehru")
+    l=print("iv:Narendra modi")
+    choice=input()
+    if choice=="iv":
+        print("Correct answer")
+        s=10+s
+        print("Your score is :",s)
+    else:
+        print("Not correct",s)
+    print("IV:How many player in cricket")
+    m=print("i:11 or 15")
+    n=print("ii:10 or 16")
+    o=print("iii:12 or 18")
+    p=print("iv:No one")
+    choice=input()
+    if choice=="i":
+        print("Correct answer")
+        s=10+s
+        print("Your score is :",s)
+    else:
+        print("Not correct",s)
+    print("V:Who is chief minister of Delhi")
+    u=print("i:Arvind kejriwal")
+    v=print("ii:Manmohan singh")
+    w=print("iii:Jawaharlal nehru")
+    x=print("iv:Narendra modi")
+    choice=input()
+    if choice=="i":
+        print("Correct answer")
+        s=10+s
+        print("Your score is :",s)
+    else:
+         print("Not correct",s)
+    if s>=40:
+         print("Congratulations you win the game",s)
+         print("THANK YOU ")
+    else:
+        print("You loose the game",s)
